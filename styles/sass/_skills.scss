@@ -1,0 +1,42 @@
+.skills {
+  background-color: black;
+  color: white;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 8%;
+
+    @media (max-width: 768px) {
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  }
+
+  &__main-heading {
+    width: 100%;
+    margin-bottom: 75px;
+
+    @media(max-width: 768px) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__list {
+    list-style-type: disc;
+    padding: default;
+  }
+
+  &__container {
+    @media (max-width: 768px) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__heading {
+    @media (max-width: 768px) {
+      margin-bottom: 10px;
+    }
+  }
+}

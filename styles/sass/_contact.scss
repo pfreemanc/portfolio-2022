@@ -1,0 +1,29 @@
+.contact {
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+
+  @media (max-width: 768px) {
+    padding-bottom: 25px;
+  }
+
+  &__container {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  a {
+    color: white;
+  }
+  
+  &__item {
+    font-size: 50px;
+    transition: all .2s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

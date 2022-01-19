@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9a98468feb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Paige Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <section class="header-section">
+        <div class="header-section__wrapper wrapper">
+          <div class="header-section__container">
+            <h1 class="header__heading">Paige <span>Freeman-Cyopeck</span></h1>
+            <h2 class="header__subtitle">Software Developer</h2>
+          </div>
+        </div>
+      </section>
+
+      <div class="svg__container svg__container--black-bg"></div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- About Me -->
+      <section class="about-me">
+        <div class="about-me__wrapper wrapper">
+          <h3 class="section__heading">About Me</h3>
+          <div class="about-me__container">
+            <div class="about-me__img-container">
+              <img src="./assets/images/me.jpg" alt="" class="bout-me__img" />
+            </div>
+            <div class="about-me__txt-container">
+              <h4 class="about-me--heading h4-style">
+                I'm Paige, and I'm a front-end web developer based out of
+                Toronto!
+              </h4>
+              <p class="about-me--content content-style--default">
+                With a passion for clean and concise code I prioritize usability
+                and accessibility in my applications. My current job allows me
+                to work with Vue and TypeScript (and some other things too).
+                When not working and honing my ever-growing list of skills in
+                web development you can find me playing games, working on music,
+                or spending time with my dog Zelda.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="svg__container svg__container--white-bg"></div>
+      </section>
+      <!-- Skills Section -->
+      <section class="skills">
+        <div class="skills__wrapper wrapper">
+          <h3 class="skills__main-heading section__heading">Skills</h3>
+
+          <div class="skills__container">
+            <h4 class="skills__heading h5-style">Things I'm Comfortable With</h4>
+            <ul class="skills__list skills--strengths content-style--softer">
+              <li class="skills--strengths__item skills__item">
+                React
+              </li>
+              <li class="skills--strengths__item skills__item">
+                Vue
+              </li>
+              <li class="skills--strengths__item skills__item">
+                Git/GitHub/GitLab
+              </li>
+              <li class="skills--strengths__item skills__item">JavaScript</li>
+              <li class="skills--strengths__item skills__item">TypeScript</li>
+              <li class="skills--strengths__item skills__item">JQuery</li>
+              <li class="skills--strengths__item skills__item">Figma</li>
+            </ul>
+          </div>
+
+          <div class="skills__container">
+            <h4 class="skills__heading h5-style">Things I Want to Learn</h5>
+            <ul class="skills__list skills--learning content-style--softer">
+              <li class="skills--learning__item skills__item">
+                More Node Things
+              </li>
+              <li class="skills--learning__item skills__item">
+                NextJS/JAMStack things
+              </li>
+              <li class="skills--learning__item skills__item">GraphQL</li>
+              <li class="skills--learning__item skills__item">More Docker</li>
+            </ul>
+          </div>
+          <!-- <li class="skills-container__item"></li> -->
+        </div>
+
+        <div class="svg__container svg__container--black-bg"></div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects">
+        <div class="projects__wrapper wrapper">
+          <h3 class="section__heading">My Work?!</h3>
+          <!-- <h4 class="section__subtitle">DISCLAIMER</h4> -->
+
+          <p class="projects__content content-style--softer">
+            I'm choosing to not include any personal projects for now. I might
+            put them back eventually. Why? Because I think that I would rather
+            talk about all the things I've been building and learning in my
+            current role and how those things can be applied to my next one. If
+            you want to chat about that (or even some of my previous work), you
+            can find a way to contact me below.
+          </p>
+
+          <!-- <ul class="projects-container">
+            <li class="projects-container__project project">
+              <div class="project__img-container">
+                <img src="https://via.placeholder.com/450x300" alt="" />
+              </div>
+
+              <div class="project__text-container">
+                <h4 class="project--title">Project Title</h4>
+                <h5 class="project--stack">
+                  <span>Built With: </span> Stack Content
+                </h5>
+                <p class="project--content">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quas, eos hic! Labore nemo quibusdam nulla aliquam, soluta
+                  nesciunt ipsum ut!
+                </p>
+                <hr class="project__line" />
+                <a class="project--links" :href="link">link</a>
+              </div>
+            </li>
+          </ul> -->
+        </div>
+
+        <div class="svg__container svg__container--white-bg"></div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <div class="contact__wrapper wrapper">
+          <h3 class="section__heading">Contact</h3>
+          <ul class="contact__container">
+            <li class="contact__item">
+              <a href="https://www.linkedin.com/in/paige-freeman-cyopeck-01a4251b5/">
+                <i class="fab fa-linkedin" title="Icon for Linked In"></i>
+              </a>
+            </li>
+            <li class="contact__item">
+              <a href="https://github.com/pfreemanc">
+                <i class="fab fa-github" title="Icon for GitHub"></i>
+              </a>
+            </li>
+            <li class="contact__item">
+              <a href="mailto:pfreemanc@gmail.com">
+                <i class="fas fa-envelope" title="Icon for Email"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
